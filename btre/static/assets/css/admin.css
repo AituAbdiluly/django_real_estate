@@ -1,0 +1,20 @@
+#header {
+    height: 50px;
+    background-color: #10284e;
+    color: #ffffff;
+}
+
+#head {
+    color: #ffffff !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+a:link,
+a:visited {
+    color: #10284e;
+}
+
+div.breadcrumbs {
+    background: #30caa0;
+}

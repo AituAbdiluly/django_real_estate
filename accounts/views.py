@@ -25,7 +25,6 @@ def login(request):
 def logout(request):
     if request.method == 'POST':
         auth.logout(request)
-        messages.success(request, 'You are logged out now.')
         return redirect('index')
 
 
@@ -58,7 +57,7 @@ def registration(request):
                 # return redirect('index')
 
                 user.save()
-                messages.success(request, 'You are now logged in.')
+                messages.success(request, 'Yeah! You\'re successsfully registered.')
                 return redirect('login')
 
         else:

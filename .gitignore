@@ -123,3 +123,4 @@ dmypy.json
 
 /static
 /btre_resources
+.vscode

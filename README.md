@@ -1,1 +1,2 @@
-# BT Real Estate project using the Django framework
+# BT Real Estate
+## URL: [https://btre-django-app.herokuapp.com/](https://btre-django-app.herokuapp.com/)
